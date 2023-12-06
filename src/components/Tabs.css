@@ -1,0 +1,22 @@
+.uk-subnav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.uk-subnav a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.uk-subnav a:hover {
+  background-color: #ddd;
+}
+
+.uk-active a {
+  background-color: #4CAF50;
+  color: white;
+}
