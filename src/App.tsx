@@ -7,9 +7,8 @@ function App() {
     backgroundImage: `url(/beautiful.jpg)`, // path is relative to the public folder
     backgroundSize: "cover",
     backgroundPosition: "center",
-   
+    color: "white",
     minHeight: "100vh",
-  
   };
 
   return (
