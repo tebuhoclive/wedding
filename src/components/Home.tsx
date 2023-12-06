@@ -9,59 +9,48 @@ function Home() {
             <div className="col-sm-12">
               <div className="titlepage">
                 <figure
+                  className="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m"
                   style={{
-                    width: "200px",
-                    height: "200px",
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
                   }}>
                   <img
+                    className="uk-responsive-width"
                     src="/front-view.jpg"
-                    alt="#"
+                    alt=""
                     style={{
-                      maxWidth: "100%",
-                      maxHeight: "100%",
+                      maxWidth: "60%",
+                      maxHeight: "60%",
                       objectFit: "cover",
                     }}
                   />
                 </figure>
-
-                <h1>ANDRI AND WEDDING</h1>
-                <p>FRIDAY, JUNE 30, 2023</p>
+                <button
+                  className="uk-button uk-button-default"
+                  style={{ backgroundColor: "black", color: "white" }}>
+                  RSV
+                </button>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div
+              className="col-md-4"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}>
               <div className="plan_bax text_align_center">
-                <figure>
-                  <img src="images/plan_img.jpg" alt="#" />
-                </figure>
                 <div className="plan_text">
-                  <h3>CHURCH CEREMONY</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod t dolor in reprehenderit in voluptate{" "}
-                  </p>
+                  <h3>ANDRI NTEMA</h3>
+                  <p> &</p>
+                  <h3> WIFES NAMES</h3>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="plan_bax text_align_center">
-                <figure>
-                  <img src="images/plan_img1.jpg" alt="#" />
-                </figure>
-                <div className="plan_text">
-                  <h3>BEST RESTAURANT</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod t dolor in reprehenderit in voluptate{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="plan_bax text_align_center">
                 <figure>
                   <img src="images/plan_img2.jpg" alt="#" />
@@ -77,17 +66,9 @@ function Home() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
-      </div>
-
-      <div className="additional-div">
-        <h2>Additional Section</h2>
-        <p>
-          Additional text goes here. You can add more content and style as
-          needed.
-        </p>
       </div>
     </div>
   );

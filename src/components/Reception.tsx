@@ -1,7 +1,7 @@
 function Reception() {
   return (
     <div className="reception-container">
-      <div className="plane">
+      {/* <div className="plane">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -68,7 +68,8 @@ function Reception() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <h1>Reception</h1>
     </div>
   );
 }

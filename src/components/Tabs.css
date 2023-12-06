@@ -21,11 +21,22 @@
   padding: 10px 15px; /* Adjust the padding for better spacing */
   margin-right: 10px; /* Adjust the spacing between tabs */
   text-decoration: none;
-  color: #333; /* Set the text color */
+
+}
+.uk-subnav a {
+  cursor: pointer;
+}
+
+.uk-subnav a:hover {
+  cursor: pointer;
+  text-decoration: underline; /* Optional: Add underline on hover */
 }
 
 .uk-subnav a.uk-active {
   color: #000; /* Set the text color for the active tab */
+}
+.uk-subnav a {
+  color: white;
 }
 
 /* Responsive styles for smaller screens */

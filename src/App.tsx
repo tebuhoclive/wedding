@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import HomePage from "./components/HomePage";
+import MobileNav from "./components/MobileNav";
 // import NavBar from "./components/Nav";
 
 function App() {
@@ -11,8 +12,15 @@ function App() {
     minHeight: "100vh",
   };
 
+    const [activeTab, setActiveTab] = useState(0);
+
+    const handleTabChange = (tabIndex:number) => {
+      setActiveTab(tabIndex);
+    };
+
   return (
     <div style={appStyle}>
+    
       {/* <NavBar /> */}
       <HomePage />
       {/* Add other components here */}

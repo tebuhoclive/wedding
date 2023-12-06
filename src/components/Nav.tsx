@@ -6,7 +6,6 @@ import Party from "./Party";
 import Home from "./Home";
 import Accommodation from "./Accommodation";
 
-
 const YourComponent: React.FC = () => {
   const [activeTab, setActiveTab] = useState<number>(0);
 
@@ -16,32 +15,33 @@ const YourComponent: React.FC = () => {
 
   return (
     <>
-      <div>
+      <div style={{ color: "white" }}>
         <div>
-          <div className="uk-subnav">
+          <div className="uk-subnav" >
             <a
               className={activeTab === 0 ? "uk-active" : ""}
+              
               onClick={() => handleTabChange(0)}>
               Home
             </a>
             <a
               className={activeTab === 1 ? "uk-active" : ""}
-              onClick={() => handleTabChange(0)}>
+              onClick={() => handleTabChange(1)}>
               Our Reception
             </a>
             <a
               className={activeTab === 2 ? "uk-active" : ""}
-              onClick={() => handleTabChange(1)}>
+              onClick={() => handleTabChange(2)}>
               Our Photos
             </a>
             <a
               className={activeTab === 3 ? "uk-active" : ""}
-              onClick={() => handleTabChange(1)}>
+              onClick={() => handleTabChange(3)}>
               Wedding Party
             </a>
             <a
               className={activeTab === 4 ? "uk-active" : ""}
-              onClick={() => handleTabChange(1)}>
+              onClick={() => handleTabChange(4)}>
               Accommodation
             </a>
           </div>
@@ -51,7 +51,7 @@ const YourComponent: React.FC = () => {
             {activeTab === 1 && <Reception />}
             {activeTab === 2 && <Photos />}
             {activeTab === 3 && <Party />}
-            {activeTab === 4 && <Accommodation/>}
+            {activeTab === 4 && <Accommodation />}
             {/* Add more components/content as needed */}
           </div>
         </div>

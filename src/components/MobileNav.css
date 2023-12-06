@@ -1,0 +1,21 @@
+/* MobileNav.css */
+/* Add your styles for the MobileNav here */
+/* ... */
+
+.mobile-nav button {
+  color: #333;
+}
+
+.uk-nav a {
+  color: #333;
+}
+
+.uk-nav a:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.uk-nav .uk-active a {
+  background-color: #337ab7;
+  color: #fff;
+}

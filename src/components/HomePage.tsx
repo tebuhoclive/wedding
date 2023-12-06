@@ -28,7 +28,7 @@ function HomePage() {
     <>
       <div style={sectionStyle}>
         <h1 style={h1Style}>ANDRI AND WEDDING</h1>
-        <p>FRIDAY, JUNE 30, 2023</p>
+        <p>FRIDAY, December 30, 2023</p>
         <Nav/>
       </div>
     
